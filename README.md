@@ -5,3 +5,6 @@ This project helped me quickly grasp HTML basics in regards to layout, syntax, f
 
 #Project two: Building a Cafe Menu with CSS.
 This project helped me get the basics of css. Mainly external and internal styling and syntax.
+
+#project three: Building coloured markers.
+This project helped me grasp colour theory, colour stops boarders functions and other css styling elements along nesting and inheritance. 
