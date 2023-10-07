@@ -8,3 +8,6 @@ This project helped me get the basics of css. Mainly external and internal styli
 
 #project three: Building coloured markers.
 This project helped me grasp colour theory, colour stops boarders functions and other css styling elements along nesting and inheritance. 
+
+#project four: Creating a registration form
+Through this project I got to learn more about selecctors, attributes, classes layout and colour theory.
