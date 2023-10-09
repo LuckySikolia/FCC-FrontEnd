@@ -17,3 +17,6 @@ This project is an unguided project that requires utilization of all the concept
 
 #project six: Box-model art piece.
 This project taught me how to use inheritance and the box model in css styling while creating a Rothko style rectangular art piece.
+
+#project sevem: Photo Gallery
+This project taught me the concepts of css flexbox to build a responsive photo gallery webpage.
