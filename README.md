@@ -14,3 +14,6 @@ Through this project I got to learn more about selecctors, attributes, classes l
 
 #project five: Survey Form (Cert Project) 
 This project is an unguided project that requires utilization of all the concepts learnt from project 1-4.
+
+#project six: Box-model art piece.
+This project taught me how to use inheritance and the box model in css styling while creating a Rothko style rectangular art piece.
