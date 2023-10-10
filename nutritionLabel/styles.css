@@ -16,3 +16,24 @@ html {
     margin: 20px auto;
     width: 270px;
 }
+
+h1 {
+    margin: -4px 0;
+    text-align: center;
+    letter-spacing: 0.15px;
+}
+
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.bold {
+    font-weight: 800;
+}
