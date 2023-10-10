@@ -18,5 +18,8 @@ This project is an unguided project that requires utilization of all the concept
 #project six: Box-model art piece.
 This project taught me how to use inheritance and the box model in css styling while creating a Rothko style rectangular art piece.
 
-#project sevem: Photo Gallery
+#project seven: Photo Gallery
 This project taught me the concepts of css flexbox to build a responsive photo gallery webpage.
+
+#project eight: Nutrition Label
+this project taught me how to use typography to build a nutririon label bebpage. focus is on text styling and positioning.
