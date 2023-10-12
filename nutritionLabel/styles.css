@@ -55,6 +55,7 @@ p {
 .calories-info h2 {
     margin: 0;
 }
+
 .calories-info {
     display: flex;
     justify-content: space-between;
