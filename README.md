@@ -23,3 +23,6 @@ This project taught me the concepts of css flexbox to build a responsive photo g
 
 #project eight: Nutrition Label
 this project taught me how to use typography to build a nutririon label bebpage. focus is on text styling and positioning.
+
+#project nine: Building a quiz
+this prohect taught me how to implement accessibility tools such as keyboard shortcuts, ARIA attributes and best design practices.
