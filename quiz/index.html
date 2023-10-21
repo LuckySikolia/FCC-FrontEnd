@@ -69,11 +69,10 @@
 					<div class="formrow">
 						<div class="question-block"> 
 							<!-- consider removing the checkboxes. check on task 37  -->
-							<label>Are you a frontend developer?</label>
+							<label for="fe-dev">Are you a frontend developer?</label>
 						</div>
-
 						<div class="answer">
-							<select>
+							<select required id="fe-dev" name="options">
 								<option value="">Select an option</option>
 								<option value="yes">Yes</option>
 								<option value="no">No</option>
@@ -83,8 +82,8 @@
 						<div class="question-block">
 							<label>do you have any questions:</label>
 						</div>
-
 						<div class="answer"></div>
+						<textarea rows="2" cols="40" placeholder="yes i am"></textarea>
 					</div>
 				</section>
 			</form>
