@@ -171,3 +171,9 @@ address {
     text-align: center;
     padding: 15px;
 }
+
+@media (prefers-reduced-motion: no-preference){
+    * {
+        scroll-behavior: smooth;
+    }
+}
