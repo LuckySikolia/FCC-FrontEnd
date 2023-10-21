@@ -26,14 +26,47 @@
 			<form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="POST">
 				<section role="region" aria-labelledby="student-info">
 					<h2>Student Info</h2>
-					<div class="info"><label for="student-name">Student Name </label><input id="student-name"></div>
-					<div class="info"><label for="email-address">Email Address </label><input id="email-address"></div>
-					<div class="info"><label for="dob">Date of Birth </label><input id="dob"></div>
+					<div class="info">
+						<label for="student-name">Student Name </label><input id="student-name" type="text" name="studentName">
+					</div>
+					<div class="info">
+						<label for="email-address">Email Address </label><input id="email-address" type="email" name="email">
+					</div>
+					<div class="info">
+						<label for="dob">Date of Birth </label><input id="dob" type="date" name="date">
+					</div>
 				</section>
+
 				<section role="region" aria-labelledby="html-questions">
 					<h2>HTML Questions</h2>
+					<div class="question-block">
+						<p>1</p>
+						<fieldset class="question" name="question-one">
+							<legend>Is HTML a considered a high level language?</legend>
+								<ul class="answers-list">
+									<li><label for="true">True <input id="true" type="radio" name="true"></label></li>
+									<li><label for="false">False <input id="false" type="radio" name="false"></label></li>
+								</ul>
+						</fieldset>
+					</div>
+
+					<div class="question-block">
+						<p>2</p>
+						<fieldset class="question" name="question-two">
+							<legend>When was HTML invented?</legend>
+							<label>
+								<ul class="answers-list">
+									<li><label for="true">True <input id="true" type="radio" name="true"></label></li>
+									<li><label for="false">False <input id="false" type="radio" name="false"></label></li>
+								</ul>
+							</label>
+						</fieldset>
+					</div>
 				</section>
-				<section role="region" aria-labelledby="css-questions"><h2>CSS Questions</h2></section>
+
+				<section role="region" aria-labelledby="css-questions">
+					<h2>CSS Questions</h2>
+				</section>
 			</form>
 		</main>
 	</body>
