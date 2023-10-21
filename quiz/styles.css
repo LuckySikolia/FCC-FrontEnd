@@ -33,6 +33,7 @@ nav {
 nav > ul {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 h1, h2 {
@@ -45,4 +46,11 @@ h2 {
 
 p::before {
     content: "Question #";
+}
+
+nav > ul > li {
+    color: #dfdfe2;
+    margin:0 0.2rem;
+    padding: 0.2rem;
+    display:block;
 }
