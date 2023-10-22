@@ -37,6 +37,10 @@ figure {
     margin: 0;
 }
 
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
 #image {
     max-width: 100%;
     height: auto;
@@ -45,8 +49,25 @@ figure {
     margin: 0 auto;
 }
 
+h3 {
+    margin: 50px 0;
+    text-align: center;
+}
+
 ul {
-    text-align: left
+    text-align: left;
+    line-height: 1.6;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    margin: 0 auto 50px auto;
+    max-width: 545px;
 }
 
 #title > h1 {
@@ -60,4 +81,8 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+a:visited {
+    color: #74638f;
 }
