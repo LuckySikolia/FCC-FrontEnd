@@ -1,0 +1,12 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background-color: #eee;
+}
+
+#img-div {
+    background-color: white;
+    margin: 5px 15px;
+}
