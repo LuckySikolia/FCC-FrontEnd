@@ -26,3 +26,6 @@ this project taught me how to use typography to build a nutririon label bebpage.
 
 #project nine: Building a quiz
 this project taught me how to implement accessibility tools such as keyboard shortcuts, ARIA attributes, access types, contrast and other best design practices.
+
+#project ten: Tribute page (ert project)
+this project is an unquided project that tested my knowledge on concepts learnt from the begining.
