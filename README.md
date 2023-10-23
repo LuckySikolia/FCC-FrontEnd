@@ -29,3 +29,6 @@ this project taught me how to implement accessibility tools such as keyboard sho
 
 #project ten: Tribute page (ert project)
 this project is an unquided project that tested my knowledge on concepts learnt from the begining.
+
+#project eleven: Balance Sheet
+this project taught me how to use pseudo selectors, how to change different element states and other triggers.
