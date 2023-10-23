@@ -70,9 +70,9 @@ section {
     padding: 0 0.75rem 1.5rem 0.75rem;
 }
 
-span{
+/* span{
     font-weight: normal;
-}
+} */
 
 table {
     border-collapse: collapse;
@@ -110,4 +110,51 @@ tr[class="total"] {
 tr[class="total"] th {
     text-align: left;
     padding: 0.5rem 0 0.25rem 0.5rem;
+}
+
+/* Learning point: tr[class="total] selects tr elements where the ONLY class is 
+total while tr.total selects tr elements where the class INCLUDES total. */
+tr.total td{
+    text-align:right;
+    padding: 0 0.25rem;
+}
+
+tr.total td:nth-of-type(3) {
+    padding: 0.5rem;
+}
+
+tr.total:hover {
+    background-color: #99c9ff;
+}
+
+td.current {
+    font-style: italic;
+}
+
+tr.data {
+    background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+}
+
+tr.data th {
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+tr.data th .description {
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    padding: 1rem 0 0.75rem;
+    margin-right: -13.5rem;
+}
+
+tr.data td {
+    vertical-align: text-top;
+    text-align: right;
+    padding: 0.3rem 0.25rem 0;
+}
+
+tr.data td:last-of-type{
+    padding-right: 0.5rem;
 }
