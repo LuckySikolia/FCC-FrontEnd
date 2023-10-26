@@ -35,3 +35,6 @@ this project taught me how to use pseudo selectors, how to change different elem
 
 #project twelve: Cat Painting
 this project taught me how to master css positioning and responsive web layouts.More importantly the absolute positioning, Z-index property and transform property. 
+
+#project thireen: Piano Project
+this project taught me responsive web design by creating a piano. Mainly learnt media queries and pseudo selectors.
