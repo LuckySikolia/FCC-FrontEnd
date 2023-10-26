@@ -32,3 +32,6 @@ this project is an unquided project that tested my knowledge on concepts learnt 
 
 #project eleven: Balance Sheet
 this project taught me how to use pseudo selectors, how to change different element states and other triggers.
+
+#project twelve: Cat Painting
+this project taught me how to master css positioning and responsive web layouts.More importantly the absolute positioning, Z-index property and transform property. 
