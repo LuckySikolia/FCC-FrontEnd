@@ -1,0 +1,16 @@
+html, body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+head {
+    display: none;
+}
+
+header {
+    color: black;
+    font-size: 1.8em;
+}
