@@ -27,8 +27,8 @@ this project taught me how to use typography to build a nutririon label bebpage.
 #project nine: Building a quiz
 this project taught me how to implement accessibility tools such as keyboard shortcuts, ARIA attributes, access types, contrast and other best design practices.
 
-#project ten: Tribute page (ert project)
-this project is an unquided project that tested my knowledge on concepts learnt from the begining.
+#project ten: Tribute page (cert project)
+this project is an unquided project that tests my knowledge on concepts learnt from the begining.
 
 #project eleven: Balance Sheet
 this project taught me how to use pseudo selectors, how to change different element states and other triggers.
@@ -38,3 +38,6 @@ this project taught me how to master css positioning and responsive web layouts.
 
 #project thireen: Piano Project
 this project taught me responsive web design by creating a piano. Mainly learnt media queries and pseudo selectors.
+
+#project fourteen: Technical Documentation Page (cert project)
+this project is an unquided project that tests knowledge aquired on css concepts
