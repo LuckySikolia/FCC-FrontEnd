@@ -15,7 +15,17 @@
     justify-content: space-evenly;
 }
 
+@mixin sky{
+    background: radial-gradient(circle closest-corner at 15% 15%, #ffcf33 0%, #ffcf33 20%, #ffff66 21%, #bbeeff 100%);
+}
 
+.skyDark{
+    background: radial-gradient(closest-corner circle at 15% 15%, #ccc, #ccc 20%, #445 21%, #223 100%);
+}
+
+.background-buildings {
+    @include sky;
+}
 
 
 .background-buildings, .foreground-buildings {
@@ -209,22 +219,71 @@
     position: relative;
     left:10%;
 
+    #{&}a {
+        border-left: 8vw solid $building-color2;
+        border-top: 5vh solid transparent;
+    }
+
     #{&}b {
         width: 100%;
         height: 89%;
         background-color: $building-color1;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #{&}-window {
+        width: 30%;
+        height: 10%;
+        border-radius: 50%;
+        margin: 10%;
+        background-color: $window-color2;
     }
 }
 
 .fb5 {
     width: 10%;
     height: 33%;
-    background-color: $building-color2;
     position: relative;
-    right: 10%
+    right: 10%;
+    background: 
+        repeating-linear-gradient(
+        $building-color4 0%, 
+        $building-color4 5%, 
+        transparent 10%, 
+        transparent 15%
+        ), 
+        repeating-linear-gradient(
+            90deg,
+            $building-color4 0%, 
+            $building-color4 12%, 
+            $window-color4 12%, 
+            $window-color4 44%
+            );
+
 }
+
 .fb6{
     width: 9%;
     height: 38%;
-    background-color: $building-color3;
+    background: repeating-linear-gradient(
+            90deg,
+            $building-color3 0%, 
+            $building-color3 10%, 
+            transparent 10%, 
+            transparent 30%
+        ),
+        repeating-linear-gradient(
+            $building-color3 0%, 
+            $building-color3 10%, 
+            $window-color3 10%, 
+            $window-color3 30%
+        );
+}
+
+//resizing
+@media (max-width: 1000px){
+    .skyDark{
+        background: radial-gradient(closest-corner circle at 15% 15%, #ccc, #ccc 20%, #445 21%, #223 100%);
+    }
 }
