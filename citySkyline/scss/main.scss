@@ -1,11 +1,22 @@
 @import './reset';
 @import './variables';
 
+
+
 @mixin building-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+@mixin window-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
 
 .background-buildings, .foreground-buildings {
     width: 100%;
@@ -21,7 +32,7 @@
 .bb1 {
     width: 10%;
     height: 70%;
-    
+
     @include building-wrap;
 
 }
@@ -76,8 +87,6 @@
     width: 10%;
     height: 55%;
     background: repeating-linear-gradient(90deg, $building-color3 0%, $building-color3 7.5%, $window-color3 15%);
-
-   
 }
 
 .bb4 {
@@ -103,15 +112,42 @@
         width: 100%;
         height: 85%;
         background-color: $building-color4;
+        @include window-wrap;
+
+        .bb4-window {
+            width: 18%;
+            height: 90%;
+            background-color: $window-color4;
+            
+        }
     }
 }
+
+
+
 
 
 .fb1 {
     width: 10%;
     height: 60%;
-    background-color: $building-color4;
+    
+    @include building-wrap;
+
+    #{&}a {
+        border-bottom: 7vh solid $building-color4;
+    }
+    #{&}b {
+        width: 60%;
+        height: 10%;
+        background-color: $building-color4;
+    }
+    #{&}c {
+        width: 100%;
+        height: 80%;
+        background: repeating-linear-gradient(90deg, $building-color4 0%, $building-color4 10%, transparent 10%, transparent 15%), repeating-linear-gradient($building-color4 0%, $building-color4 10%, $window-color4 10%, $window-color4 90%);
+    }
 }
+
 .fb2 {
     width: 10%;
     height: 40%;
