@@ -112,6 +112,8 @@ body {
 }
 .fb1 .fb1a {
   border-bottom: 7vh solid #538cc6;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
 }
 .fb1 .fb1b {
   width: 60%;
@@ -127,7 +129,26 @@ body {
 .fb2 {
   width: 10%;
   height: 40%;
+}
+.fb2 .fb2a {
+  width: 100%;
+  border-bottom: 10vh solid #cc6699;
+  border-left: 1vw solid transparent;
+  border-right: 1vw solid transparent;
+}
+.fb2 .fb2b {
+  width: 100%;
+  height: 75%;
   background-color: #cc6699;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fb2-window {
+  width: 22%;
+  height: 100%;
+  background-color: #d98cb3;
 }
 
 .fb3 {
