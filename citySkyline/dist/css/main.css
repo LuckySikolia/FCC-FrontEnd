@@ -224,7 +224,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-  :root .skyDark {
+  .skyDark {
     background: radial-gradient(closest-corner circle at 15% 15%, #ccc, #ccc 20%, #445 21%, #223 100%);
   }
 }/*# sourceMappingURL=main.css.map */

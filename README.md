@@ -41,3 +41,9 @@ this project taught me responsive web design by creating a piano. Mainly learnt 
 
 #project fourteen: Technical Documentation Page (cert project)
 this project is an unquided project that tests knowledge aquired on css concepts
+
+#project fifteen: City Skyline
+this project taught me how to use css variables
+
+#projerct sixteen: Building a magazine
+this project taught me how to use css grids to control the columns of the webpage design.
