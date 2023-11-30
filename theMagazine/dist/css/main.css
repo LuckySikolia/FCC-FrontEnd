@@ -1,3 +1,12 @@
 .hero-img {
   width: 400px;
+}
+
+.image-wrapper .image-1, .image-wrapper .image-3 {
+  width: 600px;
+  height: 400px;
+}
+.image-wrapper .image-2 {
+  width: 400px;
+  height: 400px;
 }/*# sourceMappingURL=main.css.map */
