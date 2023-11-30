@@ -15,11 +15,9 @@ body {
 }
 
 .image-wrapper .image-1, .image-wrapper .image-3 {
-  width: 600px;
   height: 400px;
 }
 .image-wrapper .image-2 {
-  width: 400px;
   height: 400px;
 }
 
@@ -44,6 +42,14 @@ main {
 
 .heading, .text {
   grid-column: 2/3;
+}
+
+.text {
+  font-size: 1.8rem;
+  letter-spacing: 0.6px;
+  -moz-column-width: 25rem;
+       column-width: 25rem;
+  text-align: justify;
 }
 
 .heading {
@@ -95,4 +101,11 @@ img {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
   align-items: center;
+}
+
+.first-paragraph::first-letter {
+  font-size: 6rem;
+  color: orangered;
+  float: left;
+  margin-right: 1rem;
 }/*# sourceMappingURL=main.css.map */
