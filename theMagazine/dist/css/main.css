@@ -1,5 +1,17 @@
-.hero-img {
-  width: 400px;
+*, ::before, ::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Baskervville, serif;
+  color: linen;
+  background-color: rgb(20, 30, 40);
 }
 
 .image-wrapper .image-1, .image-wrapper .image-3 {
@@ -9,4 +21,31 @@
 .image-wrapper .image-2 {
   width: 400px;
   height: 400px;
+}
+
+.hero-img {
+  width: 400px;
+}
+
+h1 {
+  font-family: Anton, sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: linen;
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+  row-gap: 3rem;
+}
+
+.heading {
+  grid-column: 2/3;
 }/*# sourceMappingURL=main.css.map */

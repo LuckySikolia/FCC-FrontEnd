@@ -1,6 +1,7 @@
-.hero-img {
-    width: 400px;
-}
+@import './reset';
+
+
+
 
 .image-wrapper {
 
@@ -13,4 +14,35 @@
         width: 400px;
         height: 400px;
     }
+}
+
+.hero-img {
+    width: 400px;
+}
+
+h1 {
+    font-family: Anton, sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Raleway, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: linen;
+}
+
+main {
+    display: grid;
+    //minmax function makes the column responsive on any device
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+
+    //add spaces between rows in grid layout
+    row-gap: 3rem;
+    
+}
+
+.heading {
+    grid-column: 2 /3;
 }
