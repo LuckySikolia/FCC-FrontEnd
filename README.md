@@ -45,5 +45,8 @@ this project is an unquided project that tests knowledge aquired on css concepts
 #project fifteen: City Skyline
 this project taught me how to use css variables
 
-#projerct sixteen: Building a magazine
+#project sixteen: Building a magazine
 this project taught me how to use css grids to control the columns of the webpage design.
+
+#project seventeen: Certificate Project
+this project requires i build a landing page to market a product
