@@ -49,4 +49,4 @@ this project taught me how to use css variables
 this project taught me how to use css grids to control the columns of the webpage design.
 
 #project seventeen: Certificate Project
-this project requires i build a landing page to market a product
+this project requires i build the basic functionality for a landing page to market a product
