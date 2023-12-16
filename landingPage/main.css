@@ -1,0 +1,27 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+#header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#header-img {
+    flex-basis: auto;
+    flex-shrink: 0;
+    margin-right: auto;
+}
+
+.nav-items {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.menu {
+    padding-right: 3.5rem;
+    font-size: 1.2rem;
+}
