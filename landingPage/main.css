@@ -31,26 +31,46 @@ body {
 .content-body {
     display: flex;
     justify-content: center;
-    font-size: 1.7rem;
+    margin: 0 25%;
+    flex-direction: column;
+
 }
 
 h5 {
     margin-bottom: 10px;
+    font-size: 1.7rem;
 }
 
 button {
     display: block;
     margin: 5px auto;
-    background-color: #F0A500;
+    background-color: #FFC60B;
     border: none;
-    font-weight: 600;
+    font-weight: 800;
     height: 25px;
+}
+
+button:hover {
+    background-color: #Ff8b00;
 }
 
 input {
     width: 250px;
 }
 
-div {
-    text-align: center;
+.product-info {
+    display: inline-flex;
+    /* padding-left: 1.5rem; */
 }
+
+.product-info img {
+    padding-right: 2rem;
+}
+
+/* h4 {
+    display: block;
+} */
+
+/* p {
+    display: block;
+} */
