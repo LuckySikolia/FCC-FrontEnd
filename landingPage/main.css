@@ -131,3 +131,20 @@ p {
 .grid-item-price h3 {
     font-size: 1.5rem;
 }
+
+.footer-section {
+    display: flex;
+    margin: 2% 14%;
+    margin-bottom: 0;
+    padding: 0 10px;
+    flex-direction: column;
+    background-color: #d3d3d3;
+    align-items: flex-end;
+
+}
+
+#bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+}
