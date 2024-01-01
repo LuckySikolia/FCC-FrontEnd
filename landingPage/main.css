@@ -31,9 +31,8 @@ body {
 .content-body {
     display: flex;
     justify-content: center;
-    margin: 0 25%;
+    margin: 0 20%;
     flex-direction: column;
-
 }
 
 h5 {
@@ -73,10 +72,26 @@ input {
     padding: 0 2rem;
 }
 
-/* h4 {
-    display: block;
-} */
+.description h4 {
+    margin-bottom: 0;
+}
 
-/* p {
-    display: block;
-} */
+.description p {
+    margin-top: 0.2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+}
+
+.video {
+    display: flex;
+    /* justify-content: center; */
+    margin: 2% 32%;
+    flex-direction: column;
+}
