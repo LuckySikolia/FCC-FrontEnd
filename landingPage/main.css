@@ -26,6 +26,8 @@ body {
 .nav-link {
     padding-right: 3rem;
     font-size: 1.2rem;
+    text-decoration: none;
+    color: #1b1a17;
 }
 
 .content-body {
