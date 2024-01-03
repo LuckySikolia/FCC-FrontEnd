@@ -98,7 +98,7 @@ p {
     flex-direction: column;
 }
 
-.pricing {
+#pricing {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -135,7 +135,7 @@ p {
 }
 
 .footer-section {
-    display: flex;
+    display: flexbox;
     margin: 2% 14%;
     margin-bottom: 0;
     padding: 0 10px;
@@ -149,4 +149,10 @@ p {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly ;
+}
+
+@media (max-width: 768px) {
+    .video {
+        width: 100%;
+    }
 }

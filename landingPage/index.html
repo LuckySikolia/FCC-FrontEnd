@@ -16,29 +16,35 @@
             
             <nav id="nav-bar">
                     <a href="#Features" class="nav-link">Features</a>
-                    <a href="#How-it-works" class="nav-link">How it works</a>
+                    <a href="#Video" class="nav-link">How it works</a>
                     <a href="#Price" class="nav-link">Pricing</a>
             </nav>
         </header>
     </section>
 
-    <section class="content-body">
+    <section class="content-body" id="Features">
         <div style="text-align: center; padding-bottom: 2rem;">
             <h5>Handcrafted, home-made masterpieces</h5>
-            <input type="email" placeholder="Enter email address" id="email" aria-required="true">
-            <button type="submit">GET STARTED</button>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+               <input type="email" placeholder="Enter email address" id="email" aria-required="true" name="email">
+               <input type="submit" id="submit">
+            <!-- <button type="submit">GET STARTED</button>  -->
+            </form>
         </div>
 
         <div style="align-content: center; padding-bottom: 2rem;">
-            <div class="product-info" id="Features">
-                <div class="icon">
-                    <img src="/assets/icons8-fire-64.png" alt="fire icon" height="60px" width="60px">
-                </div>
-                <div class="description">
-                    <h4>Premium Materials</h4>
-                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-                </div>
-            </div>
+            <!-- <div id="Features"> -->
+              <div class="product-info">
+                    <div class="icon">
+                        <img src="/assets/icons8-fire-64.png" alt="fire icon" height="60px" width="60px">
+                    </div>
+                    <div class="description">
+                        <h4>Premium Materials</h4>
+                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                    </div>
+                </div>  
+            <!-- </div> -->
+            
 
             <div class="product-info">
                 <div class="icon">
@@ -63,13 +69,13 @@
     </section>
 
     <!-- section to embed youtube video -->
-    <section class="video">
-        <iframe id="#How-it-works" max-width="560" width="100%" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=7669BnpJaUXVZgD8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <section class="video" id="Video">
+        <iframe id="video" max-width="560" width="100%" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=7669BnpJaUXVZgD8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
     </section>
 
     <!-- pricing grid -->
-    <section class="pricing" id="#Price">
-        <div class="grid-container">
+    <section id="pricing">
+                <div class="grid-container">
             <div class="grid-item-header">
                 <h4>TENOR TROMBONE</h4>
             </div>
