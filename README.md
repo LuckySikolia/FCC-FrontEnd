@@ -50,3 +50,6 @@ this project taught me how to use css grids to control the columns of the webpag
 
 #project seventeen: Certificate Project
 this project requires i build the basic functionality for a landing page to market a product
+
+#project eighteen: Ferris Wheel project
+learn how to use CSS to animate elements, transform them, and adjust their speed.
