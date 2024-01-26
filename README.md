@@ -53,3 +53,10 @@ this project requires i build the basic functionality for a landing page to mark
 
 #project eighteen: Ferris Wheel project
 learn how to use CSS to animate elements, transform them, and adjust their speed.
+
+#project ninteen: Building a penguin
+this project teaches how t transform, scale, rotate elements and more using css.
+
+:wq
+
+
