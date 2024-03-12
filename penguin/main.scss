@@ -1,6 +1,7 @@
 // this is a custom css property
 :root {
     --penguin-face:white;
+    --penguin-picorna:orange;
 
 }body {
     background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
@@ -156,7 +157,7 @@
 
 .beak {
     height: 10%;
-    background-color: orange;
+    background-color: var(--penguin-picorna);
     border-radius: 50%;
 }
 
@@ -184,4 +185,22 @@
     font-weight: initial;
     top: 22.5px;
     left: 12px;
+}
+
+.foot {
+    width: 15%;
+    height: 30%;
+    background-color: var(--penguin-picorna);
+    top: 85%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.foot.left {
+    left: 25%;
+    rotate: 80deg;
+}
+.foot.right {
+    right: 25%;
+    rotate: -80deg;
 }
