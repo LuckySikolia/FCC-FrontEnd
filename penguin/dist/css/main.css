@@ -52,6 +52,7 @@ body {
   margin: auto;
   z-index: 4;
   position: relative;
+  transition: 1s ease-in-out 0ms;
 }
 .penguin .penguin-head {
   width: 50%;
@@ -71,6 +72,11 @@ body {
   position: absolute;
   top: 40%;
   left: 23.5%;
+}
+
+.penguin:active {
+  transform: scale(1.5);
+  cursor: not-allowed;
 }
 
 .penguin-body::before {
