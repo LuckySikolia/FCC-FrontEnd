@@ -97,11 +97,13 @@
 
 .ground {
     width: 100vw;
-    height: 400px;
+    // height: 400px;
     background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
     z-index: 3;
     position: absolute;
     margin-top: -58px;
+    //calculate the height of the .ground element to be the height of the viewport minus the height of the .penguin element
+    height: calc(100vh - 300px);
 }
 
 //this code fixes the eye position prevenitng it from stacking
