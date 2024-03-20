@@ -1,0 +1,31 @@
+/* variables */
+/* Define fonts */
+:root {
+    --primary-font: 'Playfair Display SC', serif;
+    --secondary-font: 'Merriweather',serif;
+    --tertiary-font: 'Work Sans', sans-serif;
+    --logo-font: 'Libre Baskerville', serif;
+}
+
+/* define colour palette */
+:root {
+    --primary-blue-color: hsl(188.31, 60.75%, 20.98%) /*dark light blue*/
+    --secondary-blue-color: hsl(187.67, 60.56%, 27.84%) /*normal light blue*/
+    --primary-yellow-color: hsl(36.92, 73.8%, 55.1%) /*normal hover yellow*/
+    --primary-icon-color: hsl(187.06, 60%, 16.67%) /*dark hover light blue*/
+
+    
+}
+
+
+/* css reset */
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation-header {
+    background-color: transparent;
+
+}
