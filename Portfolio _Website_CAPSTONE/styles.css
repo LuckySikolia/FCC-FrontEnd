@@ -12,7 +12,10 @@
     --primary-blue-color: hsl(188.31, 60.75%, 20.98%) /*dark light blue*/
     --secondary-blue-color: hsl(187.67, 60.56%, 27.84%) /*normal light blue*/
     --primary-yellow-color: hsl(36.92, 73.8%, 55.1%) /*normal hover yellow*/
+    --secondary-yellow-color: hsl(34.74, 100%, 96.27%) /*light yellow*/
     --primary-icon-color: hsl(187.06, 60%, 16.67%) /*dark hover light blue*/
+    --pressed-button-bg-color: hsl(37.24, 93.55%, 87.84%) /*light active yellow*/
+    --hover-button-text-color: hsl(36.43, 93.33%, 94.12%) /*light hover yellow*/
 
     
 }
@@ -27,5 +30,18 @@
 
 .navigation-header {
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    height: 100px;
+}
 
+nav {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
