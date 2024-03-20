@@ -57,6 +57,8 @@ learn how to use CSS to animate elements, transform them, and adjust their speed
 #project ninteen: Building a penguin
 this project teaches how t transform, scale, rotate elements and more using css.
 
-:wq
-
+#CAPSTONE PROJECT: Portfolio Website
+For this project i created a homepage for a portfolio website template. Designed in figma, Assets retireved from Unsplash
+*the viual of the site is below*
+![alt text](<Portfolio website CAPSTONE/assets/Hi-fi protoype - overview.png>)
 
