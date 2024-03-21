@@ -1,23 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* variables */
-/* Define fonts */
 :root {
+    /* define colour palette */
+    --primary-blue-color: hsl(188.31, 60.75%, 20.98%); /*dark light blue*/
+    --secondary-blue-color: hsl(187.67, 60.56%, 27.84%); /*normal light blue*/
+    --primary-yellow-color: hsl(36.92, 73.8%, 55.1%); /*normal hover yellow*/
+    --secondary-yellow-color: hsl(34.74, 100%, 96.27%); /*light yellow*/
+    --primary-icon-color: hsl(187.06, 60%, 16.67%); /*dark hover light blue*/
+    --pressed-button-bg-color: hsl(37.24, 93.55%, 87.84%); /*light active yellow*/
+    --hover-button-text-color: hsl(36.43, 93.33%, 94.12%); /*light hover yellow*/
+
+    /* Define fonts */
     --primary-font: 'Playfair Display SC', serif;
-    --secondary-font: 'Merriweather',serif;
+    --secondary-font: 'Merriweather', serif;
     --tertiary-font: 'Work Sans', sans-serif;
     --logo-font: 'Libre Baskerville', serif;
-}
-
-/* define colour palette */
-:root {
-    --primary-blue-color: hsl(188.31, 60.75%, 20.98%) /*dark light blue*/
-    --secondary-blue-color: hsl(187.67, 60.56%, 27.84%) /*normal light blue*/
-    --primary-yellow-color: hsl(36.92, 73.8%, 55.1%) /*normal hover yellow*/
-    --secondary-yellow-color: hsl(34.74, 100%, 96.27%) /*light yellow*/
-    --primary-icon-color: hsl(187.06, 60%, 16.67%) /*dark hover light blue*/
-    --pressed-button-bg-color: hsl(37.24, 93.55%, 87.84%) /*light active yellow*/
-    --hover-button-text-color: hsl(36.43, 93.33%, 94.12%) /*light hover yellow*/
-
-    
 }
 
 
@@ -44,4 +43,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* styling the logo section */
+.logo > a {
+    color: var(--primary-blue-color);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--tertiary-font);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 700;
 }
