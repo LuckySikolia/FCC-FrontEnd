@@ -109,9 +109,10 @@ nav {
         top: 58px;
         background-color: var(--secondary-yellow-color);
         width: 100%;
-        height: calc(100vh-58px);
-        padding-top: 60px;
-        gap: 10vh;
+        /* height: calc(100vh-58px); */
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 5vh;
     }
 }
 
