@@ -53,6 +53,12 @@ nav {
     align-items: center;
 }
 
+/* code that makes the navbar stick on scroll */
+#navbar {
+    position: fixed;
+    top: 0;
+}
+
 /* styling the logo section */
 .logo > a {
     color: var(--primary-blue-color);
