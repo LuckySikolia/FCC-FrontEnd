@@ -90,3 +90,42 @@ nav {
     display: none;
     color: var(--primary-icon-color);
 }
+
+@media screen and (max-width:768px) {
+    .hamburger-menu {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .hamburger-menu #closeHam {
+        display: none;
+    }
+    .navigation-items {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 58px;
+        background-color: var(--secondary-yellow-color);
+        width: 100%;
+        height: calc(100vh-58px);
+        padding-top: 60px;
+        gap: 10vh;
+    }
+}
+
+
+/* Active state styles for hamburger menu icon */
+.hamburger-menu.active #openHam {
+    display: none;
+}
+
+.hamburger-menu.active #closeHam {
+    display: block;
+}
+
+/* Active state styles for navigation items */
+.navigation-items.active {
+    display: flex;
+}

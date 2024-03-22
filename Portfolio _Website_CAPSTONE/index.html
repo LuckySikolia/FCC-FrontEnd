@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annabell's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- <script src="script.js"></script> -->
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
@@ -23,8 +24,8 @@
 
             <!-- hamburger menu for smaller screens-->
             <div class="hamburger-menu">
-                <span class="material-symbols-outlined">Menu</span>
-                <span class="material-symbols-outlined">Close</span>
+                <span id="openHam" class="material-symbols-outlined">Menu</span>
+                <span id="closeHam" class="material-symbols-outlined">Close</span>
             </div> 
         </nav>
     </header>
@@ -35,5 +36,19 @@
         <h2>Web Developer and UX Researcher</h2>
     </section>
     
+<script>
+// Get references to the hamburger menu and the navigation items
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const navigationItems = document.querySelector('.navigation-items');
+
+// Add event listener to toggle the visibility of the navigation items
+hamburgerMenu.addEventListener('click', () => {
+    // Toggle the 'active' class on the hamburger menu icon
+    hamburgerMenu.classList.toggle('active');
+    
+    // Toggle the 'active' class on the navigation items to show/hide them
+    navigationItems.classList.toggle('active');
+});
+</script>
 </body>
 </html>
