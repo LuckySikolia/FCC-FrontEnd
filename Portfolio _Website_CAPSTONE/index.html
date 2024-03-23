@@ -34,7 +34,7 @@
     <section class="hero" id="welcome-section">
         <div class="hero-image">
             <!-- <img src="/assets/martin-adams-MpTdvXlAsVE-unsplash.jpg" alt="Hero Image - sunflower leaves"> -->
-            <img src="assets/flower image enhancedd.png" alt="">
+            <img src="assets/flower image enhancedd.png" alt="" height="900px">
         </div>
         <div class="hero-text">
             <h1>HEY, IT'S </h1>
@@ -45,20 +45,26 @@
         </div>
         
     </section>
+
+    <!-- projects section -->
+    <section class="projects">
+        <h3>Welcome to my showcase!</h3>
+        <h3>Here you'll find a selection of projects that highlight my skills and design philosophy</h3>
+    </section>
     
 <script>
-// Get references to the hamburger menu and the navigation items
-const hamburgerMenu = document.querySelector('.hamburger-menu');
-const navigationItems = document.querySelector('.navigation-items');
+    // Get references to the hamburger menu and the navigation items
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navigationItems = document.querySelector('.navigation-items');
 
-// Add event listener to toggle the visibility of the navigation items
-hamburgerMenu.addEventListener('click', () => {
-    // Toggle the 'active' class on the hamburger menu icon
-    hamburgerMenu.classList.toggle('active');
-    
-    // Toggle the 'active' class on the navigation items to show/hide them
-    navigationItems.classList.toggle('active');
-});
+    // Add event listener to toggle the visibility of the navigation items
+    hamburgerMenu.addEventListener('click', () => {
+        // Toggle the 'active' class on the hamburger menu icon
+        hamburgerMenu.classList.toggle('active');
+        
+        // Toggle the 'active' class on the navigation items to show/hide them
+        navigationItems.classList.toggle('active');
+    });
 </script>
 </body>
 </html>
