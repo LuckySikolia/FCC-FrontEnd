@@ -19,6 +19,7 @@
     --primary-icon-color: hsl(187.06, 60%, 16.67%); /*dark hover light blue*/
     --pressed-button-bg-color: hsl(37.24, 93.55%, 87.84%); /*light active yellow*/
     --hover-button-text-color: hsl(36.43, 93.33%, 94.12%); /*light hover yellow*/
+    --footer-background-color: hsl(172.5, 11.76%, 86.67%);/*green light hover*/
 
     /* Define fonts */
     --primary-font: 'Playfair Display SC', serif;
@@ -179,9 +180,15 @@ h1::after {
     left: 50%;
 }
 
-.hero-icon > .material-symbols-outlined {
+span.material-symbols-outlined {
     font-size: 50px;
 }
+
+.hero-icon > a {
+    text-decoration: none;
+    color: inherit;   
+}
+
 
 .projects {
     position: relative;
@@ -292,6 +299,95 @@ h1::after {
     background-color: var(--pressed-button-bg-color);
     color: var(--secondary-blue-color);
     box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-link {
+    position: relative;
+    width: 100%;
+    background-color: var(--footer-background-color);
+    padding: 2rem;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 10%;
+    /* margin-top: 10%; */
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    position: relative;
+    display: inline-flex;
+    border-radius: 50%;
+    background: url(assets/pexels-cottonbro-studio-5364789.jpg) center center no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    margin-right: 0.125em;
+    transform: translateY(0.09em);
+}
+.profile-link span {
+    display: block;
+    color: var(--primary-blue-color);
+    font-family: var(--primary-font);
+    font-size: 3.5rem;
+    font-size: calc(clamp(3.25em, 7vw, 8em)* .875);
+    margin: 0;
+    padding: 0;
+}
+
+/* #h2 {
+    position: absolute;
+    left: 32%;
+    top: 35%;
+} */
+
+/* .profile-link img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 50%;
+    overflow: hidden;
+
+} */
+
+/* .profile-link > span {
+    /* position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center; */
+    /* color: var(--primary-blue-color);
+    font-family: var(--primary-font);
+    font-size: 3.5rem;
+    font-size: calc(clamp(3.25em, 7vw, 8em)* .875); 
+} */
+
+.profile-link h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.065;
+    margin-bottom: 0;
+    letter-spacing: normal;
+}
+
+
+.back-to-top {
+    /* position: absolute; */
+    position: relative;
+    right: 10%;
+    padding-left: 30%;
+    text-align: center;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: var(--primary-blue-color);
+    font-size: 20px;
+}
+
+.back-to-top a:hover {
+    text-decoration: underline;
 }
 
 
