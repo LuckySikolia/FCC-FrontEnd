@@ -301,6 +301,7 @@ span.material-symbols-outlined {
     box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
+
 .profile-link {
     position: relative;
     width: 100%;
@@ -311,9 +312,18 @@ span.material-symbols-outlined {
     padding-top: 10%;
     /* margin-top: 10%; */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    position: relative;
+    padding-bottom: 20%;
+    width: 100%;
+}
 .profile-picture {
     position: relative;
     display: inline-flex;
@@ -329,8 +339,8 @@ span.material-symbols-outlined {
     display: block;
     color: var(--primary-blue-color);
     font-family: var(--primary-font);
-    font-size: 3.5rem;
-    font-size: calc(clamp(3.25em, 7vw, 8em)* .875);
+    font-size: 6rem;
+    /* font-size: calc(clamp(3.25em, 7vw, 8em)* .875); */
     margin: 0;
     padding: 0;
 }
@@ -363,21 +373,26 @@ span.material-symbols-outlined {
     font-size: calc(clamp(3.25em, 7vw, 8em)* .875); 
 } */
 
-.profile-link h2 {
+/* .profile-link h2 {
     font-size: 1.2rem;
     margin-bottom: 10px;
     line-height: 1.065;
     margin-bottom: 0;
     letter-spacing: normal;
-}
+} */
+
+/* .profile-link > h2 {
+    width: fit-content;
+} */
 
 
 .back-to-top {
     /* position: absolute; */
     position: relative;
     right: 10%;
-    padding-left: 30%;
+    /* padding-left: 95%; */
     text-align: center;
+    padding-top: 7%;
 }
 
 .back-to-top a {
@@ -389,6 +404,24 @@ span.material-symbols-outlined {
 .back-to-top a:hover {
     text-decoration: underline;
 }
+
+
+
+.line-divider {
+    /* padding-top: 10%; */
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    height: 5px;
+    background-color: var(--primary-blue-color);
+    /* top: 150%; */
+    /* left: 20%; */
+    /* z-index: 1; */
+    /* visibility: hidden; */
+}
+
 
 
 
@@ -431,5 +464,26 @@ span.material-symbols-outlined {
 
     .project-tile {
         width: 100%;
+    }
+
+    .profile-link span {
+        display: block;
+        color: var(--primary-blue-color);
+        font-family: var(--primary-font);
+        font-size: 4rem;
+        /* font-size: calc(clamp(3.25em, 7vw, 8em)* .875); */
+        margin: 0;
+        padding: 0;
+    }
+
+    .back-to-top {
+        visibility:hidden;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .line-divider {
+        visibility: visible;
     }
 }
