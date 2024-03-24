@@ -287,7 +287,12 @@ h1::after {
     background-color: var(--secondary-blue-color);
 }
 
-
+.btn:active {
+    border: 4px solid var(--secondary-blue-color);
+    background-color: var(--pressed-button-bg-color);
+    color: var(--secondary-blue-color);
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
 
 
 
