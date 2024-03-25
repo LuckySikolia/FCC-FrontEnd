@@ -309,7 +309,7 @@ span.material-symbols-outlined {
     padding: 2rem;
     padding-left: 10%;
     padding-right: 5%;
-    padding-top: 8%;
+    padding-top: 6%;
     /* margin-top: 10%; */
     display: flex;
     flex-wrap: wrap;
@@ -321,7 +321,7 @@ span.material-symbols-outlined {
     justify-content: space-between;
     /* flex-wrap: wrap; */
     position: relative;
-    padding-bottom: 14%;
+    padding-bottom: 10%;
     width: 100%;
 }
 .profile-picture {
@@ -426,6 +426,7 @@ span.material-symbols-outlined {
 .email-link {
     display: flex;
     width: 100%;
+    margin-bottom: 2%;
 }
 
 .email-link a {
