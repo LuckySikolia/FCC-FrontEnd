@@ -416,11 +416,22 @@ span.material-symbols-outlined {
     width: 15%;
     height: 5px;
     background-color: var(--primary-blue-color);
-    margin-bottom: 10%;
+    margin-bottom: 4%;
     /* top: 150%; */
     /* left: 20%; */
     /* z-index: 1; */
     /* visibility: hidden; */
+}
+
+.email-link {
+    display: flex;
+    width: 100%;
+}
+
+.email-link a {
+    text-decoration: none;
+    color: var(--primary-blue-color);
+    font-size: 20px;
 }
 
 
@@ -483,6 +494,10 @@ span.material-symbols-outlined {
 
     .back-to-top {
         visibility:hidden;
+    }
+
+    .line-divider {
+        margin-bottom: 8%;
     }
 
 }
