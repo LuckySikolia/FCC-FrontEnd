@@ -161,10 +161,10 @@ nav {
 }
 
 /* Change name colour */
-h1::after {
+/* h1::after {
     content: "ANNABELL";
     color: var(--primary-yellow-color);
-}
+} */
 
 .hero-text > h2 {
     font-size: 20px;
